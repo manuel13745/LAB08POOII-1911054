@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> numbers = generateRandomNumbers(10);
 
-        Obtener recuento, mínimo, máximo, suma y promedio de números.
+        //Obtener recuento, mínimo, máximo, suma y promedio de números.
         IntSummaryStatistics stats = numbers.stream()
                 .mapToInt(Integer::intValue)
                 .summaryStatistics();
